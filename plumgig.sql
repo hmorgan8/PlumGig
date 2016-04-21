@@ -55,6 +55,8 @@ CREATE TABLE reviews(
 );
 
 INSERT INTO reviews (reviewer,vid_id,total_score,quality_score,originality_score,impact_score,quality_text,originality_text,impact_text) VALUES ('Hannah','6','7','8','6','7','quality was good','originality was fine','impactful');
+INSERT INTO reviews (reviewer,vid_id,total_score,quality_score,originality_score,impact_score,quality_text,originality_text,impact_text) VALUES ('Hannah','6','4','3','4','5','quality was not so good','originality was fine','okay');
+INSERT INTO reviews (reviewer,vid_id,total_score,quality_score,originality_score,impact_score,quality_text,originality_text,impact_text) VALUES ('Scott','2','7','8','6','7','quality was good','originality was fine','impactful');
 
 GRANT ALL ON users TO aziz;
 GRANT ALL ON videos TO aziz;
